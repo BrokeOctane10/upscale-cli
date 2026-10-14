@@ -8,14 +8,14 @@ To install these packages, you can either use the pip package manager or your ow
 ```pip install opencv-python opencv-contrib-python```
 ___
 Your directory strcuture should look like this:
+
 upscale/
-│
-├── models/
-│   ├── ESPCN_x2.pb
-│   └── ESPCN_x4.pb    <-- Place your super-resolution models here
-│
-├── upscale.py         <-- The main script
-└── README.md
+  models/
+   ESPCN_x2.pb
+   ESPCN_x4.pb
+
+ upscale.py
+ README.md
 ___
 To run the script, you can open the cloned direcotry and in it's root, you will see a file named as 'upscale.py'. While being in that same direcotry with the file, run:
 ```python3 upscale.py```
